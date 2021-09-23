@@ -1,0 +1,15 @@
+@import "variables";
+
+#upscale {
+  background-color: var(--cx-color-background);
+  color: var(cx-color-text-primary);
+}
+
+:host {
+  box-shadow: none;
+  background: #005695;
+}
+
+#upscale .storybook-product-content-sale-price {
+  color: rgb(244, 121, 32) !important;
+}
